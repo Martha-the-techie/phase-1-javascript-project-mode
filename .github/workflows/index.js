@@ -13,7 +13,7 @@ fetchFavMeals();
 
 async function getRandomMeal() {
     const resp = await fetch(
-        "https://www.themealdb.com/api/json/v1/1/random.php"
+        "https://themealdb.p.rapidapi.com/randomselection.php"
     );
     const respData = await resp.json();
     const randomMeal = respData.meals[0];
@@ -23,7 +23,7 @@ async function getRandomMeal() {
 
 async function getMealById(id) {
     const resp = await fetch(
-        "https://www.themealdb.com/api/json/v1/1/lookup.php?i=" + id
+        "https://themealdb.p.rapidapi.com/lookup.php?i=" + id
     );
 
     const respData = await resp.json();
@@ -34,7 +34,7 @@ async function getMealById(id) {
 
 async function getMealsBySearch(term) {
     const resp = await fetch(
-        "https://www.themealdb.com/api/json/v1/1/search.php?s=" + term
+        "https://themealdb.p.rapidapi.com/search.php?s=" + term
     );
 
     const respData = await resp.json();
