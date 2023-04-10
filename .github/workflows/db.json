@@ -1,0 +1,18 @@
+{
+    "access-control-allow-origin": "*",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "5cd9fb3f2f6102b0-SEA",
+    "cf-request-id": "04fc1b5b79000002b09f319200000001",
+    "content-type": "application/json",
+    "date": "Fri, 04 Sep 2020 19:05:20 GMT",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "server": "RapidAPI-1.2.0",
+    "set-cookie": [
+      "__cfduid=d8656dedc3540b29fdd56d1fbac196f5e1599246320; expires=Sun, 04-Oct-20 19:05:20 GMT; path=/; domain=.themealdb.com; HttpOnly; SameSite=Lax; Secure"
+    ],
+    "x-powered-by": "PHP/7.0.9, ASP.NET",
+    "x-rapidapi-region": "AWS - us-west-2",
+    "x-rapidapi-version": "1.2.0",
+    "content-length": "1313",
+    "connection": "Close"
+  }

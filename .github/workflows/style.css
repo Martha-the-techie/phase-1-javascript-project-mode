@@ -1,141 +1,36 @@
-@import url("https://fonts.goggleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family-Poppins:wght@200;400;600&display-swap"); */
 
-* {
-    box-sizing: border-box;
-}
+/* * {
+    box-sizing: content-box;
+} */
 
 body {
-    background: #ece8e8;
-    background: -webkit-linear-gradient(
+    background: #ece9e6;
+    background: -moz-linear-gradient(
         to right,
-        #ece8e8
-        #aca8a8 
+        #ffffff,
+        #ece9e6
     );
-
     background: linear-gradient(
         to right,
-        #fff
-        #aca8a8
+        #ffffff,
+        #ece9e6
     );
     display: flex;
     align-items: center;
-    justify-content:first baseline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     min-height: 100vh;
 }
 
-.img {
+.container {
+    background-color: #fff;
+    width: 400px;
+
+}
+
+img {
     max-width: 100%;
 }
 
-.container {
-    background-color: brown;
-    box-shadow: 0 0 10px #aca8a8;
-    border-radius: 1px;
-    overflow-block: none;
-    width: 100%;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.header input{
-    background-color: #ece8e8;
-    border: none;
-    border-radius: 3px;
-    font-family: inherit;
-    padding: 0.5rem 1rem;
-}
-
-.header button {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 2rem;
-    margin: 10px;
-}
-
-.fav-container {
-    background-color: rgb(243, 225, 255);
-    padding: 0.5rem 1rem;
-    text-align: center;
-}
-
-.fav-ketos {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-.fav-ketos li {
-    margin: 10px;
-    width: 200px;
-}
-
-
-.fav-ketos li img {
-    border: #aca8a8;
-    border-radius: 50%;
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-}
-
-.fav-meals li span {
-    font-size: 5rem;
-}
-
-.keto {
-    border-radius: 5px;
-    box-shadow: 0 0 10px #3333331a;
-    margin: 1.5rem;
-}
-
-
-.keto-header {
-    position: relative;
-}
-
-.keto-header .quick-fix {
-    position: absolute;
-    top: 1rem;
-    background-color: #aca8a8;
-    padding: 0.25rem 1rem;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-.keto header img {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-
-.keto body {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-.keto-body h4 {
-    margin: 0;
-}
-
-.keto-body .fav-btn {
-    background-color: transparent;
-    border: none;
-    color: rgb(197, 188, 188);
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-.keto-body .fav-btn active {
-    color: aliceblue;
-}
